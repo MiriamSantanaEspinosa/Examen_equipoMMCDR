@@ -42,12 +42,7 @@ class Template
                 <a href="#" class="brand-logo "><img src="<?php echo URL?>/public/imagenes/logo.jpg" ></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
 
-                    <li><a href="sass.html">Inicio</a></li>
-                    <li><a href="badges.html">Servicio</a></li>
-                    <li><a href="collapsible.html">Planes especiales</a></li>
-                    <li><a href="collapsible.html">Certificacion internacional</a></li>
-                    <li><a href="collapsible.html">Sucursales</a></li>
-                    <li><a href="collapsible.html">Contacto</a></li>
+                    
                 </ul>
             </div>
         </nav>
