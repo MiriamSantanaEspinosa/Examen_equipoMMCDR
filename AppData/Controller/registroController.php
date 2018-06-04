@@ -16,6 +16,20 @@ class registroController
     {
         $this->habitaciones= new \AppData\Model\Registro();
     }
-    
+
+    public function crear()
+    {
+
+    }
+    public function eliminar($id)
+    {
+
+
+    }
+    public function modificar($id)
+    {
+
+    }
+
 
 }
