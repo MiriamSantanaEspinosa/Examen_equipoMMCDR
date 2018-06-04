@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: JAZMIN
- * Date: 10/05/2018
- * Time: 01:12 PM
+ * User: DELL
+ * Date: 04/06/2018
+ * Time: 03:53 PM
  */
 
 namespace AppData\Controller;
@@ -11,23 +11,11 @@ namespace AppData\Controller;
 
 class registroController
 {
+
     public function __construct()
     {
-        $this->estado_habitacion=new \AppData\Model\Registro();
+        $this->habitaciones= new \AppData\Model\Registro();
     }
-
-
-    public function crear()
-    {
-
-    }
-    public function eliminar($id)
-    {
-
-
-    }
-    public function modificar($id){
-
-    }
+    
 
 }
