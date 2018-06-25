@@ -61,72 +61,72 @@ class Template
                             <form class="col s12">
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="Primer Apellido" id="primer-apellido" type="text" class="validate">
+                                        <input placeholder="Primer Apellido" id="primer-apellido" type="text" >
                                         <label class="active" for="primer-apellido">Primer Apellido:</label>
                                     </div>
 
                                     <div class="input-field col s6">
-                                        <input placeholder="Telefono" id="telefono" type="text" class="validate">
+                                        <input placeholder="Telefono" id="telefono" type="text" >
                                         <label class="active" for="telefono">Telefono de Contacto:</label>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="Segundo Apellido" id="segundo-apellido" type="text" class="validate">
+                                        <input placeholder="Segundo Apellido" id="segundo-apellido" type="text" >
                                         <label class="active" for="segundo-apellido">Segundo Apellido:</label>
                                     </div>
 
                                     <div class="input-field col s6">
-                                        <input placeholder="Email" id="email" type="email" class="validate">
+                                        <input placeholder="Email" id="email" type="email" >
                                         <label class="active" for="email">Email:</label>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="Nombres" id="nombre" type="text" class="validate">
+                                        <input placeholder="Nombres" id="nombre" type="text" >
                                         <label class="active" for="nombre">Nombres:</label>
                                     </div>
 
                                     <div class="input-field col s6">
-                                        <input placeholder="Especialidad" id="especialidad" type="text" class="validate">
+                                        <input placeholder="Especialidad" id="especialidad" type="text" >
                                         <label class="active" for="especialidad">Especialidad:</label>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="No Cedula" id="cedula" type="text" class="validate">
+                                        <input placeholder="No Cedula" id="cedula" type="text" >
                                         <label class="active" for="cedula">No Cedula:</label>
                                     </div>
 
                                     <div class="input-field col s6">
-                                        <input placeholder="Año de Titulacion" id="titulacion" type="text" class="validate">
+                                        <input placeholder="Año de Titulacion" id="titulacion" type="text">
                                         <label class="active" for="titulacion">Año de titulación:</label>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="Dirección:" id="dirección" type="text" class="validate">
+                                        <input placeholder="Dirección:" id="dirección" type="text" >
                                         <label class="active" for="nombre">Dirección:</label>
                                     </div>
 
                                     <div class="input-field col s6">
-                                        <input placeholder="Codigo Minsa" id="codigo-minsa" type="text" class="validate">
+                                        <input placeholder="Codigo Minsa" id="codigo-minsa" type="text" >
                                         <label class="active" for="codigo-minsa">Especialidad:</label>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="Ciudad" id="ciudad" type="text" class="validate">
+                                        <input placeholder="Ciudad" id="ciudad" type="text" >
                                         <label class="active" for="cedula">Ciudad:</label>
                                     </div>
 
                                     <div class="input-field col s6">
-                                        <input placeholder="Años de Estudio" id="año-estudio" type="text" class="validate">
+                                        <input placeholder="Años de Estudio" id="año-estudio" type="text" >
                                         <label class="active" for="titulacion">Año de Estudio:</label>
                                     </div>
                                 </div>
@@ -156,12 +156,12 @@ class Template
 
                                 <div class="row">
                                     <div class="input col s6">
-                                        <input type="checkbox" id="curso" />
+                                        <input type="checkbox" id="curso" name="curso" />
                                         <label for="curso">Curso de Insulinoterapia</label>
                                     </div>
 
                                     <div class="input col s6">
-                                        <input type="checkbox" id="curso2" />
+                                        <input type="checkbox" id="curso2"  name="curso2"/>
                                         <label for="curso2">Curso de Abordaje de Vía Aérea Difícil</label>
                                     </div>
                                 </div>
@@ -174,12 +174,12 @@ class Template
 
                                 <div class="row">
                                     <div class="input col s6">
-                                        <input type="checkbox" id="medcina-interna" />
+                                        <input type="checkbox" id="medcina-interna" name="medcina-interna" />
                                         <label for="medcina-interna">Medicina Interna-Medicina del Paciente critico, coordinador:</label>
                                     </div>
 
                                     <div class="input col s6">
-                                        <input type="checkbox" id="pediatria" />
+                                        <input type="checkbox" id="pediatria"  name="pediatria"/>
                                         <label for="pediatria">Pediatria:</label>
                                     </div>
                                 </div>
@@ -191,18 +191,18 @@ class Template
                                     </div>
 
                                     <div class="input col s6">
-                                        <input type="checkbox" id="cirugia" />
+                                        <input type="checkbox" id="cirugia" name="cirugia"/>
                                         <label for="cirugia">Cirugia</label>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="input col s6">
-                                        <input type="checkbox" id="actualizacion" />
+                                        <input type="checkbox" id="actualizacion"  name="actualizacion"/>
                                         <label for="actualizacion">Actualización en Enfermedad cardiovascular, Coordinador</label>
                                     </div>
                                     <div class="input col s6">
-                                        <input type="checkbox" id="gineco" />
+                                        <input type="checkbox" id="gineco"  name="gineco"/>
                                         <label for="gineco">gineco-Obtetricia, coordinador:</label>
                                     </div>
                                 </div>
