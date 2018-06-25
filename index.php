@@ -9,7 +9,7 @@
     define('DS',DIRECTORY_SEPARATOR);
     define('ROOT',realpath(dirname(__FILE__)).DS);
 
-    define('URL',"http://localhost/601/Examen_equipoMMCDR/");
+    define('URL',"http://localhost/examen/Examen_equipoMMCDR/");
 
     require_once ("AppData/Config/Autoload.php");
     \AppData\Config\Autoload::run();
