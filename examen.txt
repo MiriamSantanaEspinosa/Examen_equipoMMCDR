@@ -1,5 +1,5 @@
-create table Datos (id_dato int primary key , nombre varchar(20), primer_ap varchar(20), segundo_ap varchar(20), telefono varchar(10),email varchar(30),  especialidad varchar(30), ano int,  codigo varchar(30), ano_estudio int);
-
+create table Datos (id_dato int primary key , nombre varchar(20), primer_ap varchar(20), segundo_ap varchar(20), telefono varchar(10),
+email varchar(30),  especialidad varchar(30), ano int,  codigo varchar(30), ano_estudio int);
 create table cedula(id_cedula int primary key , num_cedula int); 
 create table direccion( id_direccion int primary key , descripcion varchar(30));
 create table ciudades(id_ciudad int primary key ,ciudad varchar(30));

@@ -34,10 +34,10 @@ class Template
 
         <title>Inicio</title>
         </head>
-            <header id="header" class="page-topbar">
+            <header id="header" class="page-topbar" >
                 <nav>
-                    <div class="nav-wrapper blue">
-                        <a href="#" class="brand-logo "><img src="<?php echo URL?>/public/imagenes/logo.jpg" ></a>
+                    <div class="nav-wrapper blue" class="col s12 m11 " align="center">
+                        <a href="#" class="brand-logo "></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
 
 
